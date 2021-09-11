@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    /* font-family: ; */
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: turquoise;
+}
+
+section {
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    border: solid 2px black;
+    border-radius: 20px;
+    width: max-content;
+    background-color: lightgray;
+}
+
+/* #save-form {
+
+} */
+
+#quiz-container {
+    margin: 7%;
+    padding: 20px;
+    width: max-content;
+    border: solid 2px black;
+    border-radius: 20px;
+    background-color: lightgray;
+    /* color: black; */
+    /* display: none; */
+}
+
+#question {
+    /* padding: 20px; */
+    font-size: 200%;
+    font-weight: bolder;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+
+#result {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid gray;
+    font-size: 150%;
+    /* background-color: lightgreen; */
+    /* visibility: hidden; */
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(1, max-content);
+    gap: 10px;
+    margin: 20px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    border: solid 1px black;
+    border-radius: 5px;
+    font-size: 250%;
+}
+
+.correct {
+    background-color: lightgreen;
+}
+
+.score {
+    font-size: 200%;
+    font-weight: bolder;
+}
+
+.remove {
+    display: none;
+}
+
+.wrong {
+    background-color: red;
+}
+
+/* .answer {
+    padding: 20px;
+} */
+
+/* .button {
+    border: black, 2px;
+    background-color: grey;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+} */
+
+/* #timer.button {
+    visibility: hidden;
+    display: none;
+    cursor: default;
+} */
+
+
+
+/* #quiz-box {
+    visibility: hidden;
+    display: flex;
+    align-items: center;
+} */
+
+
+/* #welcome {
+    visibility: visible;
+    display: flex;
+    align-items: center;
+} */

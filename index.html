@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Code Quiz</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <section class="btn-grid">
+      <button class="btn" id="scores">View High Scores</button>
+      <button class="btn" id="start">Start Quiz</button>
+      <button class="btn remove" id="timer"></button>
+      <button class="btn remove" id="save">Save Score</button>
+      <input
+        class="remove"
+        id="save-form"
+        maxlength="3"
+        placeholder="Your Initials"
+      />
+    </section>
+    <div class="remove" id="quiz-container">
+      <div id="question">Question</div>
+      <div class="btn-grid" id="answers">
+        <button class="btn answer">Answer 1</button>
+        <button class="btn answer">Answer 2</button>
+        <button class="btn answer">Answer 3</button>
+        <button class="btn answer">Answer 4</button>
+      </div>
+      <div class="remove" id="result"></div>
+    </div>
+    <script src="./assets/javascript/script.js"></script>
+  </body>
+</html>
