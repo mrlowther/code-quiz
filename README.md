@@ -8,9 +8,9 @@ When the user clicks "View High Scores" they are presented with the scores saved
 ## images
 
 ### home screen
-![home page](assets\images\home.png)
+![home page](./assets/images/home.png)
 ### quiz page
-![quiz page](assets\images\quiz.png)
+![quiz page](./assets/images/quiz.png)
 ### high scores
-![scores page](assets\images\scores.png)
+![scores page](./assets/images/scores.png)
 
