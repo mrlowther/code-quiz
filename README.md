@@ -5,12 +5,15 @@ When the quiz ends the score is saved to localStorage and the user is presented 
 
 When the user clicks "View High Scores" they are presented with the scores saved in localStorage and their associated initials in order from highest score to lowest.
 
-## images
+## Deployed Link
+https://mrlowther.github.io/code-quiz/
 
-### home screen
+## Images
+
+### Home Screen
 ![home page](./assets/images/home.png)
-### quiz page
+### Quiz Page
 ![quiz page](./assets/images/quiz.png)
-### high scores
+### High Scores
 ![scores page](./assets/images/scores.png)
 
